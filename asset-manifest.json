@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/EtherScan/static/js/main.99bee2f5.js",
+    "index.html": "/EtherScan/index.html",
+    "main.99bee2f5.js.map": "/EtherScan/static/js/main.99bee2f5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.99bee2f5.js"
+  ]
+}
