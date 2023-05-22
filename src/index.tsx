@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='Ethereum-Explorer'>
+    <BrowserRouter basename='EtherScan'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
