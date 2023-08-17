@@ -13,7 +13,7 @@ import SearchTx from './components/SearchTx';
 const App: React.FunctionComponent = (): JSX.Element => {
   const web3Https = useMemo(() => new Web3(
     new Web3.providers.HttpProvider(
-      "https://eth-mainnet.g.alchemy.com/v2/5t1lfJYegbBghvu5C_rgHVheTYf-1XWn"
+      "<API_KEY>"
     )
   ), []);
 
