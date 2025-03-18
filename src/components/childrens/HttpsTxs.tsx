@@ -93,7 +93,7 @@ const HttpsTxs: React.FunctionComponent = (): JSX.Element => {
                           <td>{ Number(tx.gas).toLocaleString() }</td>
                           <td>{ Number(Number(
                             web3Https?.utils.fromWei(
-                              String(tx.value), "ether"
+                              `${tx.value}`, "ether"
                             )
                           ).toFixed(3)).toLocaleString() + " ether" }</td>
                         </tr>
